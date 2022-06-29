@@ -1,0 +1,29 @@
+.parternerWsImages {
+    width: 108px;
+    position: absolute;
+    right: -3px;
+    top: -3.5px;
+}
+
+label.pwuFormlabel {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+
+.pwuForminput {
+    border: 2px solid black;
+}
+
+.pwuForminput[placeholder] {
+    font-size: 14px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: var(--themeGreen);
+    outline: none;
+    box-shadow: none;
+}

@@ -1,0 +1,39 @@
+.navbar .navbar-menu-wrapper {
+    background: #F4F5F7;
+    transition: width 0.25s ease;
+    -webkit-transition: width 0.25s ease;
+    -moz-transition: width 0.25s ease;
+    -ms-transition: width 0.25s ease;
+    color: #6C7383;
+    padding: 8px 12px;
+    padding-right: 22px;
+    width: calc(100% - 220px);
+    height: 65px;
+}
+
+.navbar .navbar-brand-wrapper {
+    width: 220px;
+    height: 65px;
+    padding: 8px 12px;
+}
+
+.page-body-wrapper {
+    min-height: calc(100vh - 97px);
+    display: -webkit-flex;
+    display: flex;
+    /* -webkit-flex-direction: row; */
+    flex-direction: row;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 66px;
+}
+
+.sidebar .nav .nav-item.active>.nav-link i,
+.sidebar .nav .nav-item.active>.nav-link .menu-title,
+.sidebar .nav .nav-item.active>.nav-link .menu-arrow {
+    color: #0db4b7 !important;
+}
+
+table#tableOrderDetails td {
+    border-right: 1px solid lightgray !important;
+}
