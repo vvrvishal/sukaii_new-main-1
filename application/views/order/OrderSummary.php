@@ -167,7 +167,7 @@ if (!empty($this->session->cart_session) > 0) {
 						Card</label>
 				</div>
 				<div class="book_service text-center">
-					<!--                        <a href="--><?php //echo base_url('insertOrder'); ?><!--">-->
+					                       <a href="<?php echo base_url('insertOrder'); ?><!--">
 					<button id="btnPayment" type="button" class="px-3 btn btn-light small btn-sm"
 							style="background-color: var(--themePink); color: white; border-radius: 6px;"><b style="font-family: var(--primaryText); ">Pay
 							THB <?= $grand_total; ?></b></button>
